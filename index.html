@@ -42,7 +42,7 @@
 <li>CHARSET: defines the character set (this attribute is defined by Meta Element)</li> 
 <li>/HEAD: Closing tag</li> 
 </p>
-<p><ul>**All tags are begins with open angle brackets and ends with***
+<p><ul>**All tags begins with open angle brackets and ends with***
 </ul></p>
   <li> Elements can be a parent or a child</li>
   <li>Parent elements hold nested elementsknown as child elements </li> 
@@ -70,7 +70,7 @@ is a semantic HTML element</li>
         <li>Github: A cloud based hosting service that allows 
           tracking of projects inside repositories stored remotely</li>
           <li> It allows developers to colaborate with other developers</li>
-        </p>
+        
         <h4> Basics about Github </h4>
         <li>Allows multiple persons to make changes to project at same time </li>
         <li>Every project is called a repository</li>
@@ -94,9 +94,33 @@ is a semantic HTML element</li>
 <li>git pull origin main: pulls down the lastest version of the main branch</li>
 <li>git restore {name of file}: restores file to previous state without with out saving changes </li>
 </ul>
+
+      <h4> Steps To Save Code To Github</h4>
+<ul><li>Step 1. Confirm you are on the correct branch from your command line {git status}</li></ul>
+<ul><li>Step 2. Use the {git add -A} command in your terminal to stage/commit all your files in the working branch to your working directory staging area of git</li></ul>
+<ul><li>Step 3. Commit files to your repository with the following command:
+{git commit -m "added code to HTML file"
+use the -m flag to associate a message with our commit. It should be short and discriptive.</li></ul>
+
+<ul><li>Step 4. check that your current branch is up to date before opening a pull request.
+{git pull origin main}
+message should read {Already up to date}</li></ul>
+<ul><li>Step 5. push up all of our changes to github by using the following command
+git push origin feature/add-html</li></ul>
+<ul><li>Step 6. navigate to your feature branch in the repository on GitHub</li></ul>
+<ul><li>Step 7. click the "Pull Requests" tab at the top of the page</li></ul>
+<ul><li>Step 8. On the pull requests page, find and click the "New pull request" button</li></ul>
+<ul><li>Step 9 Compare the two branches that we want to merge..Arrow should be pointing from Compare{Feature} branch to Base{Main} branch.</li></ul>
+<ul><li>Step 10. Once on the pull request form, give your PR a title and a short description of the changes</li></ul>
+<ul><li>Step 11. Click the "Create pull request" button.</li></ul>
+<ul><li>Step 12. Click the "Merge pull request" button and confirm that the message reads { This branch has no conflict with the main branch}.</li></ul>
+<ul><li>Step 13. A successful merge should read {Pull request succefully merged and closed}</li></ul>
+<ul><li>Step 14. Navigate back to the main branch in GitHub, and you should see that your merged file is now there</li></ul>
+<ul><li>Step 15. Update local repository with the new merged-in feature by opening up terminal and entering commad {git checkout main} then {git pull origin main}</li></ul>
+<ul><li>Step 16. Go back to Github and close the issue associated with this pull request</li></ul>
+
    
-      </section>
-   
+      </section>   
       <section class="card" id="javascript-section">
    
       </section>
