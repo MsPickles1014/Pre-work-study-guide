@@ -160,4 +160,161 @@ git push origin feature/add-html</li></ul>
 <ul><li>Step 15. Update local repository with the new merged-in feature by opening up terminal and entering commad {git checkout main} then {git pull origin main}</li></ul>
 <ul><li>Step 16. Go back to Github and close the issue associated with this pull request</li></ul>
 
- 
+   
+</section>   
+<section class="card" id="javascript-section">
+  <h2>JavaScript</h2>
+  <ul>
+    <h4>JAVA SCRIPT</h4>
+<li> JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+<ul>***allows user to click a button, retrieve data, or fill out a form</ul>
+<ul><H4>JavaScript features</H4></ul>
+<li>A variable is a named container that allows us to store data in our code.</li>
+<li>Control flow is the order in which a computer executes code in a script.</li>
+variables
+<li>String is a sequence of characters used to represent text   </li>                                
+<ul>*** All strings are surrounded by quotation marks.***</ul>
+
+<li>data types-primitive (primitive value, primitive data type) - is data that is not an object and has no methods or properties. ***All primitives are immutable; that is, they cannot be altered.***
+<li> control flow- the order in which a computer executes code in a JavaScript file
+<ul><h4> JavaScript Basics </h4><ul>
+<li>Browser Application Programming Interfaces (APIs)- provides functionality such as:
+<li> dynamically creating HTML and setting CSS styles</li>
+<li>collecting and manipulating a video stream from a user's webcam</li>
+<li>generating 3D graphics and audio samples.</li> </li>
+<li> If the JavaScript loads first and it is supposed to affect the HTML that hasn't loaded yet, there could be problems. Placing JavaScript near the bottom of an HTML page is one way to accommodate this dependency</li>
+<ul><h4>Variables</h4></ul>
+<li> Variables are containers that store values. You start by declaring a variable with the let keyword, followed by the name you give to the variable
+***{ let myVariable;}*** A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, it's good practice to have semicolons at the end of each statement.</li>
+<li> JavaScript is case sensitive. </li>
+<ul><h4>Comments</h4></ul>
+<li> Comments can be added along with code. The browser ignores text marked as comments. </li>
+<li>JavaScript comments are written as {/*Everything in between is a comment.*/}</li>
+<ul><h4>Operators</h4></ul>
+<li> An operator is a mathematical symbol that produces a result based on two values (or variables)</li>
+<ul><h4>Conditionals</h4></ul>
+<li>Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement.</li> 
+***The expression inside the  {    if ()    }  is the test. If this comparison returns true, the first block of code runs. If the comparison is not true, the second block of code (—after the else statement—)runs instead.***
+<ul><h4>Functions</h4></ul>
+<li>Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This is a good alternative to repeatedly writing the same code</li>
+***something which looks like a variable name, but it's followed by parentheses— () —it is likely a function. ***
+<li>Events-code structures that listen for activity in the browser, and run code in response.</li>
+<ul> <h4>7 primitive data types</h4></ul>
+<li>
+1****mutable value is one that can be changed without creating an entirely new value (objects and arrays are mutable by default)
+</li>	
+<li> 
+2****Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754)
+</li>
+<li> 3****BigInt is a numeric data type that can represent integers in the arbitrary precision format</li>
+<li> 4****Boolean is a logical data type that can have only the values true or false. </li>
+<li>5****Undefined is a primitive value automatically assigned to variables that have just been declared, or to formal 
+arguments for which there are no actual arguments.</li>
+<li>6****Symbol is a built-in object whose constructor returns a symbol primitive </li>
+<li>7****null value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address.</li>
+<ul>
+<li>immutable value - is one whose content cannot be changed without creating an entirely new value, in comparison with mutable values.</li>
+</ul>
+   
+<h4>Create a new file folder</h4> 
+<li>enter touch [folder name. file type (html, css,js)] in the command line.</li>
+<h4>Control flow</h4>
+<li>Control flow - is the order in which a computer executes code in a script based on our instructions
+***In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.***
+</li>
+<li>Control flow works in a linear, from top to bottom. </li>
+<li>Developers can instruct a program to deviate from its norm if certain conditions are met.</li>
+<li>if statement is a way of introducing decision-making into our code
+If() statements are used to determine whether a condition is true or false, code will only execute if the statement meets a condition, or is true. An 
+</li>
+
+<ul><h4>To create an if statement in JavaScript</h4></ul>
+***if (condition) {// block of code to be executed if condition is truthy}***
+
+<li>if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then 
+the computer will ignore whatever is in between the curly brackets and move on.</li>
+<li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false.</li>	
+<li>All other values, including a Boolean with the value of true, are considered truthy</li>
+<li>by using else if, we can have more than one condition </li>
+<li>Control flow can be interrupted, however. We can use conditional statements and loops to control
+ the order in which code is executed, or if it is even executed at all.</li> 
+<li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true</li>
+  <li>An array is a single variable that is used to hold a group of data. Arrays are typically
+     used to hold data that is related in some way. 
+***It evaluates a dozen or even hundreds of values at a time.***</li>
+<li>arrays can store different types of data, such as strings, numbers, and so on</li>
+<li>****const studentInfo = ["Lu", 54, true];****</li>
+<li>When working with single data items, we simply used the variable name,  to access the stored data
+
+<li>	an index-a unique number used to access individual data inside the array.</li>
+<li>first item in any array always has an index of 0,</li>
+<li>A for loop uses the predictable pattern of indices to perform a task on all the items 
+in an array by allowing a single code block to be executed over and over.</li> 
+<li>	conditional if statement is used to interrupt the control flow by executing a block of 
+code a specific number of times.</li>
+<li>	Length tells the loop how many times the code will run until there are no items left
+   in the array.</li>
+  <li>	let, followed by a unique variable name and the assignment 
+    operator = to assign the specific data that we want stored in our variable. However, unlike with const, let allows 
+    us to reassign the value of the variable over time.</li> 
+    <li>A {for} loop contains the following three important statements:</li>
+      <li>1.	The first statement declared a variable x and given a value of 0, determines the starting point of the loop;
+         keeps track of how many times the code will execute</li>
+        <li>2.	The second statement is the condition. As long as the number in the variable x is less than the length of the
+           array, the loop will keep running.</li>
+          <li>3.	The final statement is what allows the array to iterate over each item</li>
+<li>***For(var x = 0 ;	x < shape . length ;   X++ )</li>
+<li>***Code Block- { // console log (shapes [x];  } repeats for each item in our array
+<li>4.	The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code:
+<li>5.	A for loop starts with for
+<li>6.	we put the code that we want to be executed for each loop inside curly brackets
+
+
+<ul><H4>JAVA SCRIPT FUNTIONS</H4></ul>
+
+<li>	Function- is simply a set of instructions that tells the computer how to perform a certain task. (groups a set of instruction)</li>
+<li>	Functions are reusable blocks of code that contain instructions to perform a specific task.</li>
+<li>Functions do not automatically execute when the JavaScript file is run. Instead, it must call a function by name in order to execute it.</li> 
+  <li>To declare a function, we use the function keyword and then give our function a unique name followed by parentheses.</li> 
+    Then we add curly brackets {} that contain the code for the task we want to perform</li>
+    <li>There are Multiple ways to define a function:</li>
+</li>
+
+<ul><h4>Write a function</h4></ul>
+
+<h5>EXAMPLE Function declaration:                     ***maketea() { 
+// code block
+}***</h5>
+<li>  
+function          
+Uses function keyword and function name to define function  </li>
+<li>Code block is written instruct for what the function should do -AKA- function Body</li>
+<li>Steps to execute are written as console logs: 
+function maketea() { 
+// console.log (“Heating up the water”);
+console.log  (“Putting the tea bag into the heated water!”);
+console.log  (“Pouring the tea into a cup!”);
+}  </li>        
+<li>To execute function, it needs to be called
+  maketea () ;       </li>              
+  <li>Functions in JavaScript are used to define and reuse blocks of code</li>
+    <li>A function's name is followed by parentheses ().</li>
+      <li>The code to be executed is written inside the curly brackets {}.</li>
+
+<h5>Call a function</h5> 
+<li>To call a function, we use the name of the function in our JavaScript file where we want the code to execute</li>
+<li>Add  [function-name () ] at the bottom of the [ your-js- file name .js ] file so that our [function-name () ] function will run</li>
+<li>To randomize our selection, we need to use a special Math function that helps us select a random number.</li>
+<li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number. </li>
+
+
+
+</section>
+</main>
+
+<footer>
+<p>I can code!</p>
+</footer>
+<script src="./assets/script.js"></script>
+</body>
+</html>
